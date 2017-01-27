@@ -1,6 +1,6 @@
 {
   "name": "good-look",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper around prettier formatter to make it easier to use(for more control just use prettier)",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   "author": "jordan piepkow",
   "license": "ISC",
   "dependencies": {
+    "recursive-readdir": "^2.1.0",
     "shelljs": "^0.7.6"
   }
 }

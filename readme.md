@@ -7,6 +7,7 @@ Description: this module wraps prettier formatter to glob an entire directory fo
 **ignores node_module folder**
 
 Getting started:
+	
 	npm install prettier -g
 
 	npm install good-look -g

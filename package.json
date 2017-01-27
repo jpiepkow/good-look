@@ -15,6 +15,10 @@
     "formatter",
     "wrapper"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpiepkow/good-look"
+  },
   "author": "jordan piepkow",
   "license": "ISC",
   "dependencies": {

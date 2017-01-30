@@ -1,6 +1,6 @@
 {
   "name": "good-look",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A wrapper around prettier formatter to make it easier to use(for more control just use prettier)",
   "main": "index.js",
   "scripts": {

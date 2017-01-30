@@ -9,7 +9,7 @@
   }
   recursive(base, [ ignoreFunc ], function(err, files) {
     // Files is an array of filename
-    var files = files.filter(x => x.endsWith('.js'));
+    var files = files.filter(x => (x.endsWith('.js') || x.endsWith('.jsx')) );
     console.log(files);
     files.forEach(file => {
       exec(`prettier --write --single-quote  ${file}`);
